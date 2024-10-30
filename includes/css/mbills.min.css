@@ -1,0 +1,146 @@
+#js_qrcode{
+    display:none!important
+}
+#mbillswc-qrcode{
+    max-width:170px;
+    max-height:170px;
+    margin:0 auto
+}
+#mbillswc-qrcode img{
+    margin:0 auto;
+    border:1px solid #cccccc
+}
+#mbillswc-description{
+    text-transform:none;
+    font-size:14px
+}
+.mbillswc-clear{
+    margin:8px 0!important
+}
+.mbillswc-clear-area{
+    margin:5px 0!important
+}
+.mbillswc-form-group input{
+    width:70%;
+    max-width:80%!important;
+    text-align:center!important;
+    border-radius:5px!important;
+    margin:auto;
+    display:inline-block;
+    vertical-align:bottom
+}
+.mbillswc-form-group select{
+    width:25%;
+    border-radius:5px!important;
+    display:inline-block;
+    vertical-align:sub
+}
+span.mbillswc-required{
+    color:#ff0000
+}
+.mbillswc-order-total{
+    font-weight:700;
+    font-size:12px;
+    margin:3px 0 5px 0;
+    text-transform:uppercase
+}
+.mbillswc-upi-id{
+    font-weight:700;
+    font-size:12px;
+    margin:0 0 3px 0;
+    text-transform:uppercase
+}
+.mbillswc-upi-id span,.mbillswc-order-total span{
+    color:#bb3b15
+}
+#mbillswc-upi-id-raw-dark,#mbillswc-order-total-amount-dark{
+    color:#ecf019
+}
+.mbillswc-confirm-text{
+    font-size:14px
+}
+.mbillswc-return-link{
+    font-size:12px;
+    padding-top:5px;
+    cursor:pointer;
+    display:none
+}
+.mbillswc-form-group label strong{
+    color:#57bf6d
+}
+.mbillswc-popup-title-light{
+    color:#000
+}
+.mbillswc-help-text-light{
+    display:block;
+    color:#bb153b;
+    margin-top:5px;
+    text-transform:uppercase;
+    font-size:12px
+}
+.mbillswc-help-text-dark{
+    display:block;
+    color:#a2ff0b;
+    margin-top:5px;
+    text-transform:uppercase;
+    font-size:12px
+}
+.jconfirm.jconfirm-light .jconfirm-box .jconfirm-buttons,.jconfirm.jconfirm-dark .jconfirm-box .jconfirm-buttons,.jconfirm-box{
+    text-align:center!important;
+    float:none!important
+}
+.jconfirm-buttons button{
+    font-size:15px!important
+}
+.mbillswc-info{
+    display:block;
+    text-align:center;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgba(84,84,84,.15);
+    border-image:initial;
+    padding:18px;
+    background-color:#f7f7f7
+}
+.mbillswc-waiting-text{
+    text-transform:uppercase;
+    color:#5a5a5a;
+    font-size:13px
+}
+.mbillswc-dark-input{
+    color:#fff!important
+}
+
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media only screen and (max-width:600px){
+    .jconfirm-title{
+        font-size:18px!important
+    }
+    .jconfirm-buttons button{
+        font-size:11px!important
+    }
+    .mbillswc-description,.mbillswc-confirm-text,.mbillswc-help-text-light{
+        font-size:11px!important
+    }
+    #mbillswc-id,#mbillswc-handle,#mbillswc-transaction-number{
+        width:80%!important;
+        display:inline-block
+    }
+    #mbillswc-form label{
+        font-size:13px!important
+    }
+}
